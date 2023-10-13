@@ -45,7 +45,8 @@ namespace ClinicService.Controllers
                 SurName = updateRequest.SurName,
                 FirstName = updateRequest.FirstName,
                 Patronymic = updateRequest.Patronymic,
-                Birthday = updateRequest.Birthday
+                Birthday = updateRequest.Birthday,
+                Document = updateRequest.Document,
             });
             return Ok(res);
         }
